@@ -4,7 +4,7 @@
   "description": "sample rest api",
   "main": "index.js",
   "scripts": {
-    "start": "ENVIRONMENT=$ENVIRONMENT node index.js",
+    "start": "node index.js",
     "start:dev": "nodemon index.js",
     "eslint": "eslint ./",
     "eslint-fix": "eslint ./ --fix",
